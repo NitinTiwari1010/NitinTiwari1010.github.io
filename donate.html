@@ -12,9 +12,8 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="program.html">Programs</a></li>
                 <li><a href="donate.html">Donate</a></li>
-                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="gallery.html">Image Gallery</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -24,13 +23,56 @@
             <h1>Support Our Cause</h1>
             <p>Your donations help us provide education, nutritious food, skill training, and winter essentials to children in need.</p>
             <h2>How to Donate</h2>
-            <p>You can donate using the following methods:</p>
-            <ul>
-                <li>Paytm: <a href="#">Click here to donate via Paytm</a></li>
-                <li>UPI: Send your donations to <strong>mahadevngo@upi</strong></li>
-            </ul>
+            <p>You can donate using the following methods:</p>           
+            <h2>1. Scan to Pay</h2>
+            <p>Use the QR code below to make a quick and secure payment:</p>
+            <img src="images/QRCode.jpeg" alt="QR Code for Donation" style="max-width: 200px; width: 100%; height: auto;">
+            <h2>2. Bank Details for Net Banking</h2>
+            <table class="bank-details">
+                <thead>
+                    <tr>
+                        <th>Bank Name</th>
+                        <th>Account Name</th>
+                        <th>Account Number</th>
+                        <th>IFSC Code</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bank of India</td>
+                        <td>Narayana Shaikshik Evam Samajik Kalyan Nyas</td>
+                        <td>690710210000018</td>
+                        <td>BKID0006907</td>
+                    </tr>
+                </tbody>
+            </table>
             <p>Every contribution makes a difference. Thank you for your support!</p>
         </section>
+        <style>
+            .bank-details {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 1rem;
+            }
+
+            .bank-details th, .bank-details td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+
+            .bank-details th {
+                background-color: #f4f4f4;
+                font-weight: bold;
+            }
+
+            @media (max-width: 768px) {
+                .bank-details th, .bank-details td {
+                    font-size: 0.9rem;
+                    padding: 6px;
+                }
+            }
+        </style>
     </main>
     <footer>
         <p>&copy; 2025 NSSKalyanTrust.org.in. All rights reserved.</p>

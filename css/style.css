@@ -82,4 +82,17 @@ footer {
     main {
         padding: 1rem;
     }
+
+    .welcome, .highlights, .call-to-action, .about, .contact {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .highlights ul, .contact ul {
+        padding: 0;
+    }
+
+    .highlights ul li, .contact ul li {
+        margin: 0.5rem 0;
+    }
 }
