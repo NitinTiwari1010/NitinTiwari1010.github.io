@@ -39,8 +39,10 @@
         <section class="call-to-action">
             <h2>Get Involved</h2>
             <p>Join us in making a difference. Support our initiatives by donating or volunteering today!</p>
-        </section>      
-    
+        </section>  
+        <section class="banner">
+            <img src="images/banner.png" alt="Banner" class="responsive-banner">
+        </section>    
     </main>
     <footer>
         <p>&copy; 2025 NSSKalyanTrust.org.in. All rights reserved.</p>
@@ -61,6 +63,22 @@
             .logo {
                 max-width: 120px;
             }
+        }
+
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 0;
+        }
+
+        .responsive-banner {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
 </body>
